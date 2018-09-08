@@ -1,0 +1,10 @@
+Map: BackwaterLE
+
+Against bot
+
+from examples.terran.proxy_rax import ProxyRaxBot
+
+run_game(maps.get("BackwaterLE"), [
+    Bot(Race.Protoss, SentdeBot()),
+    Computer(Race.Terran, ProxyRaxBot)
+    ], realtime=False)

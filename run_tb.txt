@@ -1,0 +1,1 @@
+tensorboard --host=localhost --port 22222 --logdir /logs/STAGE1
